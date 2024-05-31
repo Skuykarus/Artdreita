@@ -1,0 +1,28 @@
+@media (min-width: 427px) {
+    .img-default {
+      display: block;
+    }
+    
+    .img-small {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 426px) {
+    .img-default {
+        display: none;
+      }
+      
+      .img-small {
+        display: block;
+      }
+
+      .titulo{
+        margin-top: 175px;
+        right: 30px;
+      }
+      .botonsobremi{
+        padding: 5px;
+        background-color: rgba(102, 101, 109, 0.74);
+      }
+}

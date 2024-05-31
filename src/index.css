@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (min-width: 427px) {
+
+  .footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  /*     position: fixed; */
+  }
+  
+  .Tatuaje4 {
+    transition: clip-path 1.5s ease, filter 1.5s ease, transform 1.5s ease;
+    filter: grayscale(100%); /* Duración de la transición: 1.5 segundos */
+  }
+  
+  /* Aplicar escala de grises al pasar el cursor */
+  .Tatuaje4:hover {
+    filter: grayscale(0%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Clip path para hacer que la transición se desplace de izquierda a derecha */
+    transform: scale(1.03); 
+  }
+  
+  .header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  
+  .mt-custom {
+    margin-top: 160px;
+  }
+  
+  .header-inicio-sesion {
+    background-image: url('./assets/img/Fondos/fondoHeaderAlternativo.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    z-index: 0;
+  }
+  
+  .botonForm {
+    background-color: rgb(37, 34, 34);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .botonForm:hover {
+    background-color: rgb(14, 13, 13);
+  }
+  
+  .textoForm{
+    font-size: 26px;
+  }
+  
+  
+  
+  /* --scrollbar-- */
+  body::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.89);
+         
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(61, 60, 58);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(88, 88, 86);  /* creates padding around scroll thumb */
+  }
+  /* --scrollbar-- */
+  
+}
+
+@media only screen and (max-width: 426px) {
+  *{
+    
+  }
+
+  .header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .header-inicio-sesion {
+    background-image: url('./assets/img/Fondos/fondoHeaderAlternativo.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    z-index: 0;
+  }
+
+  .Tatuaje4 {
+    transition: clip-path 1.5s ease, filter 1.5s ease, transform 1.5s ease;
+    filter: grayscale(100%); /* Duración de la transición: 1.5 segundos */
+  }
+  
+  /* Aplicar escala de grises al pasar el cursor */
+  .Tatuaje4:hover {
+    filter: grayscale(0%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Clip path para hacer que la transición se desplace de izquierda a derecha */
+    transform: scale(1.03); 
+  }
+
+  .botonForm {
+    position: relative;
+    z-index: 9999;
+    background-color: rgb(37, 34, 34);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .botonForm:hover {
+    background-color: rgb(14, 13, 13);
+    
+  }
+}

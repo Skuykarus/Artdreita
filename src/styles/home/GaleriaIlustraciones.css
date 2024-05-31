@@ -1,0 +1,63 @@
+/* Estilo base para .button1 */
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 0.75rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+/* Efecto hover */
+.button1:hover {
+    opacity: 0.9;
+}
+
+.imagen{
+    height: 25rem;
+    width: 35rem;
+}
+
+/* Media query para pantallas más anchas */
+@media only screen and (min-width: 427px) {
+    .button1 {
+        height: 25rem;
+        width: 35rem;
+    }
+
+    .imagen{
+        height: '25rem';
+        width: '35rem'
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .imagenes{
+        padding-left: 25px;
+        padding-right: 25px;
+        
+    }
+
+    .imagen{
+        height: 15rem;
+    }
+
+    .button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .gallery-button{
+        border-radius: 10px;
+    }
+
+    .galeria{
+        width: 100%;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}

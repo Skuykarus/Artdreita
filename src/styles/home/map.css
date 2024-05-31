@@ -1,0 +1,17 @@
+/* Estilos base para el mapa */
+#map {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 0;
+}
+
+/* Media query para dispositivos con un ancho mínimo de 427px */
+@media only screen and (max-width: 426px)  {
+    #map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        z-index: 0;
+    }
+}

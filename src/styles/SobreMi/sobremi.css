@@ -1,0 +1,14 @@
+.sobremimv{
+    display: none;
+}
+
+@media screen and (max-width:426px){
+    .sobremipc{
+        display: none;
+    }
+
+    .sobremimv{
+        display: flex;
+        flex-flow: row wrap;
+    }
+}

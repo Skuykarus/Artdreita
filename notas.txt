@@ -1,0 +1,15 @@
+/*         effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop:true,
+        loopAdditionalSlides: 0,
+        loopedSlides: 2, 
+        coverflowEffect: {
+          depth: 100, // Profundidad de las diapositivas en píxeles
+          modifier: 1, // Multiplicador del efecto
+          rotate: 50, // Rotación de las diapositivas en grados
+          scale: 1, // Efecto de escala de las diapositivas
+          slideShadows: true, // Sombras de las diapositivas
+          stretch: 0 // Espacio de estiramiento entre diapositivas en píxeles
+        } */

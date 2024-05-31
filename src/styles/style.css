@@ -1,0 +1,51 @@
+@media only screen and (min-width: 427px){
+  .font-custom {
+      font-family: 'Impact', sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 5px;    
+      font-size: 75px;
+  }
+
+  .font-custom2 {
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+
+    letter-spacing: 5px;    
+    font-size: 25px;
+  }
+
+  h1{
+      font-size: 1500px;
+  }
+}
+
+@media only screen and (max-width: 426px){
+  .font-custom {
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;    
+    font-size: 27px;
+  }
+
+  .font-custom2 {
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+
+    letter-spacing: 5px;    
+    font-size: 25px;
+  }
+
+  .font-custom3{
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+
+    letter-spacing: 2px;    
+    font-size: 15px;
+  }
+
+  h1{
+      font-size: 1500px;
+  }
+}

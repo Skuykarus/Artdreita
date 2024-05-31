@@ -1,0 +1,4 @@
+.form-container {
+    position: relative;
+    z-index: 1; /* Asegúrate de que este valor sea menor que el z-index del header */
+  }
